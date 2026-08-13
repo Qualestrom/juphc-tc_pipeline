@@ -1,0 +1,12 @@
+
+> tax-calculator@1.0.0 test
+> npx jasmine
+
+Randomized with seed 36474
+Started
+
+
+No specs found
+Finished in 0.001 seconds
+Incomplete: No specs found
+Randomized with seed 36474 (jasmine --random=true --seed=36474)

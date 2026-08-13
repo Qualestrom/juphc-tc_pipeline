@@ -1,0 +1,16 @@
+{
+  "name": "tax-calculator",
+  "version": "1.0.0",
+  "description": "A simple tax calculator for DevOps deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx jasmine"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.9.0"
+  }
+}
