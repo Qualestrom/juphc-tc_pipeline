@@ -1,13 +1,13 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  generateName: tax-calculator-run-
+  generateName: juphc-tc_pipeline-
 spec:
   pipelineRef:
     name: tax-calculator-pipeline
   params:
     - name: repo-url
-      value: "https://github.com/YOUR_USERNAME/tax-calculator-devops"
+      value: "https://github.com/Qualestrom/juphc-tc_pipeline"
   workspaces:
     - name: pipeline-workspace
       volumeClaimTemplate:
