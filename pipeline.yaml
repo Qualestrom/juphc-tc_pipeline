@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: tax-calculator-pipeline
+  name: juphc-tc_pipeline
 spec:
   workspaces:
     - name: pipeline-workspace
